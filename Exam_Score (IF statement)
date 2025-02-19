@@ -1,0 +1,9 @@
+pass_score = 75
+actual_score = 78
+
+pass_fail_score = True
+
+if(actual_score >= pass_score):
+    print(f"You Passed! with a score of {actual_score} / {pass_score}")
+else:
+        print(f"You failed with a score of {actual_score} / {pass_score}")
